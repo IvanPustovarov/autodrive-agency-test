@@ -13,6 +13,9 @@
       "
     >
       <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+        <TheButton
+          type="default"
+        />
       </div>
       <dialog
         class="backdrop:bg-gray-50 open:bg-white open:text-white modal-window"
