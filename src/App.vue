@@ -1,6 +1,7 @@
 <template>
   <div
     class="bg-gray-50 h-full"
+    :class="{ ordercall: visibilityDialog }"
   >
     <div
       class="
@@ -36,5 +37,22 @@ export default {
   },
 };
 </script>
+
 <style lang="scss">
+#app {
+  height: 100vh;
+}
+
+.ordercall {
+  background-color: rgb(92, 89, 89);
+}
+.disabled {
+  display: none;
+}
+
+.modal-window {
+  border-radius: 5px;
+  position: absolute;
+  top: 10rem;
+}
 </style>

@@ -22,5 +22,18 @@ export default {
 };
 </script>
 
+
 <style scoped lang="scss">
+.input {
+  color: black;
+  input {
+    padding: 5px;
+    margin: 0 1rem 1rem 0;
+    border-radius: 5px;
+    border: 1px solid rgb(139, 134, 134);
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
 </style>
